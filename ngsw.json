@@ -1,0 +1,82 @@
+{
+  "configVersion": 1,
+  "timestamp": 1766877803401,
+  "index": "/The-Purrfect-Encyclopedia-PWA/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/The-Purrfect-Encyclopedia-PWA/chunk-5YM65OJ5.js",
+        "/The-Purrfect-Encyclopedia-PWA/chunk-QS2WHXNV.js",
+        "/The-Purrfect-Encyclopedia-PWA/favicon.ico",
+        "/The-Purrfect-Encyclopedia-PWA/index.html",
+        "/The-Purrfect-Encyclopedia-PWA/main-OFNLLY3S.js",
+        "/The-Purrfect-Encyclopedia-PWA/manifest.webmanifest",
+        "/The-Purrfect-Encyclopedia-PWA/polyfills-B6TNHZQ6.js",
+        "/The-Purrfect-Encyclopedia-PWA/styles-2CM3OWU3.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "cats-api",
+      "patterns": [
+        "https:\\/\\/api\\.thecatapi\\.com\\/v1\\/breeds",
+        "https:\\/\\/cdn2\\.thecatapi\\.com\\/images\\/.*"
+      ],
+      "strategy": "freshness",
+      "maxSize": 100,
+      "maxAge": 3600000,
+      "timeoutMs": 3000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/The-Purrfect-Encyclopedia-PWA/chunk-5YM65OJ5.js": "17a48757dcb9892c5a129de9ed2d48a1e32aaa94",
+    "/The-Purrfect-Encyclopedia-PWA/chunk-QS2WHXNV.js": "ed077e6682a9db6cbcd5cb4d166bdd92e13c7162",
+    "/The-Purrfect-Encyclopedia-PWA/favicon.ico": "2ec9ae992d4246adad0053838896ca9a36dab48b",
+    "/The-Purrfect-Encyclopedia-PWA/index.html": "baf161d748fd4d6c1a0f9163a427880c13ecdaf9",
+    "/The-Purrfect-Encyclopedia-PWA/main-OFNLLY3S.js": "59ccfd039c30be18c2dc1b53c7a214c6e35dbfa8",
+    "/The-Purrfect-Encyclopedia-PWA/manifest.webmanifest": "2e7dca7ae8d9847d311e4c090355120babafd52c",
+    "/The-Purrfect-Encyclopedia-PWA/polyfills-B6TNHZQ6.js": "bf76ac291d7f51c1139b7edcf86b359a30c08c64",
+    "/The-Purrfect-Encyclopedia-PWA/styles-2CM3OWU3.css": "ebd26d4d17816cb16b47f7e1250bd8aae335c383"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
